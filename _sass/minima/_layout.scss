@@ -104,7 +104,12 @@
   }
 }
 
-
+.separator-line {
+  width: 40px;
+  height: 2px;
+  background-color: $brand-color;
+  margin: 10px auto;
+}
 
 /**
  * Site footer
@@ -123,6 +128,10 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+}
+
+.social-media-list li {
+  display: inline;
 }
 
 .footer-col-wrapper {

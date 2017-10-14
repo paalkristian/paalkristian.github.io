@@ -21,6 +21,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 // Width of the content area
 $content-width:    800px !default;
 $content-body-width: 800px + 50px;
+
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
@@ -45,5 +46,6 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
+  "minima/home",
   "minima/syntax-highlighting"
 ;

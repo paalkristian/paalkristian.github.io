@@ -3,31 +3,23 @@ layout: default
 ---
 
 <div class="home">
+  <div class="profilepic-img">
+    <img src="assets/img/profilepic.png" class="object-fit-cover"/>
+  </div>
+  <h1 class="home-title">Paal kristian Minne</h1>
+  <div class="separator-line"></div>
+  <p>Full stack software developer.<br /> Consultant based in Oslo.</p>
+  <ul class="social-media-list">
+    {% if site.github_username %}
+    <li>
+      {% include icon-github.html username=site.github_username %}
+    </li>
+    {% endif %}
 
-  <h1 class="page-heading">Posts</h1>
-  {{ content }}
-
-
-  {% for post in site.posts %}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ post.title | escape }}</h1>
-        <p class="post-meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            {{ post.date | date: date_format }}
-          </time>
-          {% if post.author %}
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
-          {% endif %}</p>
-      </header>
-
-      <div class="post-content" itemprop="articleBody">
-        {{ post.content }}
-      </div>
-    </article>
-    <hr />
-  {% endfor %}
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+    {% if site.twitter_username %}
+    <li>
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+    {% endif %}
+  </ul>
 </div>

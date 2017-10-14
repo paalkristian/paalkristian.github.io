@@ -1,8 +1,12 @@
+.body-content {
+  max-width: $content-body-width;
+  margin: 0 auto;
+}
+
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 

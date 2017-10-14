@@ -220,6 +220,12 @@
 /**
  * Posts
  */
+
+.post {
+  max-width: $page-content-max-width;
+  margin: 0 auto;
+}
+
 .post-header {
   margin-bottom: $spacing-unit;
 }

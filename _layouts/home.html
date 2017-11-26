@@ -1,18 +1,22 @@
---- layout: default ---
+---
+layout: default
+---
 
 <div class="home">
   <div class="profilepic-img">
-    <img src="assets/img/profilepic.png" class="object-fit-cover" />
+    <img src="assets/img/profilepic.png" class="object-fit-cover"/>
   </div>
   <h1 class="home-title">Paal kristian Minne</h1>
   <div class="separator-line"></div>
-  <p>Full stack software developer based in Oslo.</p>
+  <p>Full stack software developer.<br /> Consultant based in Oslo.</p>
   <ul class="social-media-list">
     {% if site.github_username %}
     <li>
       {% include icon-github.html username=site.github_username %}
     </li>
-    {% endif %} {% if site.twitter_username %}
+    {% endif %}
+
+    {% if site.twitter_username %}
     <li>
       {% include icon-twitter.html username=site.twitter_username %}
     </li>

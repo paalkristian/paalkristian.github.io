@@ -12,9 +12,9 @@ This Hugo site uses the `paper` theme and is configured for GitHub Pages. Use th
 
 1. Create a GitHub repository that will host the site (for example `https://github.com/<user>/<repo>`).
 2. Set the Hugo `baseURL` in `hugo.toml` to the eventual Pages URL (`https://<user>.github.io/<repo>/` for project pages or `https://<user>.github.io/` for a user page).
-3. Add the remote and push `main`:
+3. Point `origin` at your GitHub repository and push `main`:
    ```sh
-   git remote add origin https://github.com/<user>/<repo>.git
+   git remote add origin git@github.com:<user>/<repo>.git # or https:// if you prefer
    git add -A
    git commit -m "Initial site"
    git push -u origin main

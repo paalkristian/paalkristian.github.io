@@ -1,0 +1,11 @@
+@reference "../themes/paper/assets/app.css";
+
+:root {
+  --site-paper-bg: #fff1e5;
+}
+
+html:not(.dark),
+html:not(.dark) body,
+html:not(.dark) .nav-wrapper {
+  background-color: var(--site-paper-bg) !important;
+}

@@ -1,0 +1,43 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Paal Kristian"
+theme = "paper"
+enableInlineShortcodes = true
+
+[pagination]
+  pagerSize = 6
+
+[params]
+  color = "linen"
+  github = "paalkristian"
+  rss = true
+  name = "Paal Kristian"
+  bio = "Notes on software, systems, and things worth keeping."
+  mainSections = ["posts"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Paal Kristian</title><link>https://paalkristian.com/posts/</link><description>Recent content in Posts on Paal Kristian</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 22 Mar 2026 10:30:00 +0100</lastBuildDate><atom:link href="https://paalkristian.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>https://paalkristian.com/posts/welcome/</link><pubDate>Sun, 22 Mar 2026 10:30:00 +0100</pubDate><guid>https://paalkristian.com/posts/welcome/</guid><description>&lt;p&gt;This site is set up with &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; and the &lt;a href="https://themes.gohugo.io/themes/hugo-paper/"&gt;Paper theme&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Things to change first:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Update &lt;code&gt;baseURL&lt;/code&gt;, &lt;code&gt;title&lt;/code&gt;, and profile details in &lt;code&gt;hugo.toml&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Replace this post with your own writing.&lt;/li&gt;
+&lt;li&gt;Run the local dev server and tune the theme options you want to keep.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
